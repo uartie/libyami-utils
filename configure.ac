@@ -283,8 +283,9 @@ AC_CHECK_FUNCS([memset strcasecmp strdup])
 
 AC_CONFIG_FILES([Makefile
                  tests/Makefile
-		 examples/Makefile
-		 testscripts/Makefile])
+                 examples/Makefile
+                 examples/yvac/Makefile
+                 testscripts/Makefile])
 
 AC_OUTPUT
 

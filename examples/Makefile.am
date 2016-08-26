@@ -1,3 +1,5 @@
+SUBDIRS = yvac
+
 bin_PROGRAMS =
 
 if ENABLE_X11
